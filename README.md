@@ -6,7 +6,7 @@ Here at ShootProof, we prefer to have a good idea of a candidate's technical
 experience and analysis skills before proceeding with portions of our recruiting
 process.  We believe that the exercise below will illustrate a candidate's
 approach to working with technologies and methodologies that may be commonly
-used in our data and analytics engineering team here at ShootProof.
+used in our engineering teams here at ShootProof.
 
 # Guidelines
 
@@ -29,7 +29,7 @@ with how you approach the problem and deliver business insights.
 
 # PHP & ReactJS Exercise
 
-Goal: Create a persistent navigable tree component using our provided set of test data.
+**Goal:** Create a persistent navigable tree component using our provided set of test data.
 
 ## Limitations
 
