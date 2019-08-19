@@ -33,7 +33,7 @@ Goal: Create a persistent navigable tree component using our provided set of tes
 
 ## Limitations
 
-- This exercise should not take you more than three hours to complete
+- KISS.
 - Target only the latest Chrome
   - Use the latest CSS and ES6+ JavaScript it supports.
 - **DO NOT:**
