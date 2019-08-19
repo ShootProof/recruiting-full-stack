@@ -40,7 +40,7 @@ Goal: Create a persistent navigable tree component using our provided set of tes
   - Build, bundle, or transpile your code (using Babel, Sass, etc).
   - Use frameworks (e.g. Laravel, Twitter's Bootstrap, etc).
   - Use starter kits (e.g. `create-react-app`, `react-bootstrap` etc).
-  - Use third-party modules (via such as jQuery or Redux, via NPM, Bower, or direct).
+  - Use third-party modules (such as jQuery, Redux, or others found on NPM, Bower, etc).
 
 ## Requirements
 
