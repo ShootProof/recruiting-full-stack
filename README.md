@@ -34,10 +34,9 @@ with how you approach the problem and deliver business insights.
 ## Limitations
 
 - KISS.
-- Target only the latest Chrome
+- Target only the latest Chrome.
   - Use the latest CSS and ES6+ JavaScript it supports.
 - **DO NOT:**
-  - Build, bundle, or transpile your code (using Babel, Sass, etc).
   - Use frameworks (e.g. Laravel, Twitter's Bootstrap, etc).
   - Use starter kits (e.g. `create-react-app`, `react-bootstrap` etc).
   - Use third-party modules (such as jQuery, Redux, or others found on NPM, Bower, etc).
@@ -45,6 +44,7 @@ with how you approach the problem and deliver business insights.
 ## Requirements
 
 - Create a static `index.html` page that loads your ReactJS interface.
+- Use a simple build process, such as [Parcel](https://parceljs.org) or [Brunch](https://brunch.io).
 - Using React Hooks, fetch the page settings and the node data from a PHP endpoint.
   - Place the PHP file in the same working directory.
   - Assume the latest release of PHP is installed with standard packages.
