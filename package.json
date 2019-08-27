@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/ShootProof/recruiting-full-stack#readme",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development"
   },
   "dependencies": {
     "prop-types": "15.7.2",
