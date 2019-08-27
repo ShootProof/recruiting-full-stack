@@ -14,6 +14,9 @@
     "url": "https://github.com/ShootProof/recruiting-full-stack/issues"
   },
   "homepage": "https://github.com/ShootProof/recruiting-full-stack#readme",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+  },
   "dependencies": {
     "prop-types": "15.7.2",
     "react": "16.9.0",
@@ -33,7 +36,10 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.3",
     "eslint-plugin-react-hooks": "2.0.1",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
     "webpack": "4.39.3",
-    "webpack-cli": "3.3.7"
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0"
   }
 }
