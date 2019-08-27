@@ -6,7 +6,7 @@ Here at ShootProof, we prefer to have a good idea of a candidate's technical
 experience and analysis skills before proceeding with portions of our recruiting
 process.  We believe that the exercise below will illustrate a candidate's
 approach to working with technologies and methodologies that may be commonly
-used in our engineering teams here at ShootProof.
+used in our [Táve](https://tave.com/) engineering team at ShootProof.
 
 # Guidelines
 
@@ -36,22 +36,17 @@ with how you approach the problem and deliver business insights.
 - KISS.
 - Target only the latest Chrome.
   - Use the latest CSS and ES6+ JavaScript it supports.
-- **DO NOT:**
-  - Use frameworks (e.g. Laravel, Twitter's Bootstrap, etc).
-  - Use starter kits (e.g. `create-react-app`, `react-bootstrap` etc).
-  - Use third-party modules (such as jQuery, Redux, or others found on NPM, Bower, etc).
+- Don't use frameworks (e.g. Laravel, Twitter's Bootstrap, etc).
+- Avoid third-party modules (such as jQuery, Redux, or others found on NPM, Bower, etc).
 
 ## Requirements
 
-- Create a static `index.html` page that loads your ReactJS interface.
-- Use a simple build process, such as [Parcel](https://parceljs.org) or [Brunch](https://brunch.io).
+- Use this repository to kickstart your project.
 - Using React Hooks, fetch the page settings and the node data from a PHP endpoint.
-  - Place the PHP file in the same working directory.
-  - Assume the latest release of PHP is installed with standard packages.
 - Render the nodes using the selected theme and data to mimic the mockup below.
-- When a parent node is collapsed or the theme is changed, call a PHP endpoint to update `testdata.json`.
-- Use CSS Variables to provide two color schemes; a default light mode and a dark mode.
-- Enable dark mode by only changing CSS Variables when a class is added to the `body` element.
+- When a parent node is collapsed or the theme is changed, call the PHP endpoint to update `testdata.json`.
+- Use [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) to provide two color schemes; a default light mode and a dark mode.
+  - Enable dark mode by only changing CSS Variables when a class is added to the `body` element.
 
 # Technical Requirements
 
@@ -65,9 +60,20 @@ with how you approach the problem and deliver business insights.
 
 The end result should look something similar to what's shown below:
 
-![Working Example of Tree Component](/example.gif)
+![Working Example of Tree Component](/docs/example.gif)
 
 # Optional / Bonus
 - Define a Yaml schema for your PHP endpoint.
 - Limit cross-site request forgery.
 - Make the node name editable.
+
+# Instructions
+- Fork or download this repository.
+- Open a terminal and `cd` to the code's root directory.
+  - Install the NPM modules using `npm i`.
+  - Launch the Webpack dev server (with live reload support) using `npm run start`.
+- Open a new terminal and `cd` to the code's root directory.
+  - Launch PHP's built-in web server using `php -S localhost:8000 -t src/php/`
+- Implement the project per the Requirements.
+- If you're feeling adventurous, complete the Bonus tasks.
+- Send the completed project to us per the Guidelines above.
