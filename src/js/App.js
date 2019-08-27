@@ -1,5 +1,8 @@
 import React from 'react'
 
+// NOTE: ESLint will enforce Táve coding standards:
+// https://github.com/tave/javascript/  Goodbye semicolons!
+
 function App() {
   console.log('App() running')
 
