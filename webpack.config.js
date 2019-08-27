@@ -6,17 +6,19 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader',
-        },
+        enforce: 'pre',
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
       },
       {
         test: /\.html$/,
-        use: {
-          loader: 'html-loader',
-        }
+        use: 'html-loader',
       },
     ],
   },
