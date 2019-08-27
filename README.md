@@ -65,7 +65,7 @@ with how you approach the problem and deliver business insights.
 
 The end result should look something similar to what's shown below:
 
-![Working Example of Tree Component](/example.gif)
+![Working Example of Tree Component](/docs/example.gif)
 
 # Optional / Bonus
 - Define a Yaml schema for your PHP endpoint.
