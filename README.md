@@ -6,7 +6,7 @@ Here at ShootProof, we prefer to have a good idea of a candidate's technical
 experience and analysis skills before proceeding with portions of our recruiting
 process.  We believe that the exercise below will illustrate a candidate's
 approach to working with technologies and methodologies that may be commonly
-used in our [Táve](https://tave.com/) engineering team at ShootProof.
+used in our teams at ShootProof.
 
 # Guidelines
 
