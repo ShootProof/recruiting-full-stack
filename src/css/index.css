@@ -1,4 +1,5 @@
 :root {
+  --black: #000;
   --blue: #3b8be4;
   --indigo: #6610f2;
   --purple: #703c87;
@@ -21,7 +22,7 @@
   --danger: var(--red);
   --text-color: var(--gray-dark);
   --text-muted: var(--gray-light);
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: 'Nunito Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
@@ -31,4 +32,78 @@ body {
   background-color: var(--white);
   color: var(--text-color);
   margin: 200px 50px;
+}
+
+div.component-photo-tree {
+    width: 830px;
+}
+
+    div.component-photo-tree ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        div.component-photo-tree ul ul {
+            padding-left: 40px;
+        }
+
+    div.component-photo-tree ul li.collapsed li {
+        display: none;
+    }
+
+    div.component-photo-tree ul li div.line-data {
+        margin: 5px 0;
+        padding: 5px;
+        background-color: #EBEAED;
+        border-radius: 5px;
+        border: 1px solid #DEDEDE;
+        font-size: 13px;
+        display: flex;
+        align-items: center; /* align vertical */
+        outline: none;
+    }
+
+    div.component-photo-tree ul li div.line-data span.node-name {
+        margin-left: 10px;
+    }
+
+    div.component-photo-tree ul li div.line-data.has-children {
+        cursor: pointer;
+    }
+
+    div.component-photo-tree ul li div.line-data img {
+        border-radius: 3px;
+        width: 25px;
+        height: 25px;
+    }
+
+    div.component-photo-tree ul li span.icon-down {
+        display: inline-block;
+    }
+
+    div.component-photo-tree ul li span.icon-right {
+        display: none;
+    }
+
+    div.component-photo-tree ul li span.expanders.collapsed span.icon-down {
+        display: none;
+    }
+
+    div.component-photo-tree ul li span.expanders.collapsed span.icon-right {
+        display: inline-block;
+    }
+
+    div.component-photo-tree ul li span.icon-right,
+    div.component-photo-tree ul li span.icon-down {
+        font-size: 20px;
+    }
+
+
+body.theme-dark-mode {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+body.theme-dark-mode div.component-photo-tree ul li div.line-data {
+    background-color: var(--gray-dark);
 }
